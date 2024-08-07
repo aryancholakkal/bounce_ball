@@ -1,77 +1,81 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Letter</title>
-    </head>
-    <body>
-        <p style="text-align:right;"> 
-            Dr. Eleanor Gaye <br>
-            Awesome Science faculty <br>
-            University of Awesome <br>
-            Bobtown, CA 99999, <br>
-            USA <br>
-            Tel: 123-456-7890 <br>
-            Email: no_reply@example.com
-            <br><br>
-            20 January 2016 <br>
-        </p>
-        <p>
-            Miss Eileen Dover <br>
-            4321 Cliff Top Edge <br>
-            Dover, CT9 XXX <br>
-            UK <br><br>
-        </p>
-        <p>
-            Re: Eileen Dover university application <br>
-        </p>        
-        <p>
-            Dear Eileen, <br> <br>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Formatting a biography</title>
+    <style>
+      body {
+        background-color: #fff;
+        color: #333;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 1em;
+        margin: 0;
+      }
 
-            Thank you for your recent application to join us at the University of Awesome's science faculty to study as part of your PhD next year. I will answer your questions one by one, in the following sections.
-            <br> <br>
-            Starting dates
-            <br> <br>
-            We are happy to accommodate you starting your study with us at any time, however it would suit us better if you could start at the beginning of a semester; the start dates for each one are as follows:
-            <br><br>
-            First semester: 9 September 2016 <br>
-            Second semester: 15 January 2017 <br>
-            Third semester: 2 May 2017 <br>
-            <br>
-            Please let me know if this is ok, and if so which start date you would prefer. <br>
-            <br>
-            You can find more information about important university dates on our website. <br>
-            <br>
-            
-            Subjects of study <br><br>
+      h1 {
+        color: hotpink;
+        font-size: 2em;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        border-bottom: 10px dotted purple;
+      }
 
-            At the Awesome Science Faculty, we have a pretty open-minded research facility — as long as the subjects fall somewhere in the realm of science and technology. You seem like an intelligent, dedicated researcher, and just the kind of person we'd like to have on our team. Saying that, of the ideas you submitted we were most intrigued by are as follows, in order of priority: <br>
-            <br>
-            Turning H2O into wine, and the health benefits of Resveratrol (C14H12O3.) <br>
-            Measuring the effect on performance of funk bassplayers at temperatures exceeding 30°C (86°F), when the audience size exponentially increases (effect of 3 × 103 increasing to 3 × 104.) <br>
-            HTML and CSS constructs for representing musical scores. <br>
-            <br>
-            So please can you provide more information on each of these subjects, including how long you'd expect the research to take, required staff and other resources, and anything else you think we'd need to know? Thanks.
-            <br><br>
+      h2 {
+        font-style: italic;
+        font-size: 1.5em;
+      }
 
-            Exotic dance moves
-            <br><br>
-            Yes, you are right! As part of my post-doctorate work, I did study exotic tribal dances. To answer your question, my favourite dances are as follows, with definitions:
-            <br><br>
-            Polynesian chicken dance <br>
-            A little known but very influential dance dating back as far as 300BC, a whole village would dance around in a circle like chickens, to encourage their livestock to be "fruitful". <br>
-            Icelandic brownian shuffle <br>
-            Before the Icelanders developed fire as a means of getting warm, they used to practice this dance, which involved huddling close together in a circle on the floor, and shuffling their bodies around in imperceptibly tiny, very rapid movements. One of my fellow students used to say that he thought this dance inspired modern styles such as Twerking. <br>
-            Arctic robot dance <br>
-            An interesting example of historic misinformation, English explorers in the 1960s believed to have discovered a new dance style characterized by "robotic", stilted movements, being practiced by inhabitants of Northern Alaska and Canada. Later on however it was discovered that they were just moving like this because they were really cold. <br>
-            <br>
-            For more of my research, see my exotic dance research page. <br><br>
+      .job-title {
+        color: #999999;
+        font-weight: bold;
+      }
 
-            Yours sincerely, <br>
-            Dr Eleanor Gaye <br> <br>
+      a:link,
+      a:visited {
+        color: #fb6542;
+      }
 
-            University of Awesome motto: "Be awesome to each other." -- The memoirs of Bill S Preston, Esq <br>
-        </p>
-    </body>
+      a:hover {
+      color: green;
+      text-decoration: none;
+      }
+
+
+      ul.contact-details {
+        background-color: #eeeeee;
+        border: 5px solid purple;
+        padding: 15px; /* Adjust padding as needed */
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Jane Doe</h1>
+    <div class="job-title">Web Developer</div>
+    <p>
+      Far far away, behind the word mountains, far from the countries Vokalia
+      and Consonantia, there live the blind texts. Separated they live in
+      Bookmarksgrove right at the coast of the Semantics, a large language
+      ocean.
+    </p>
+
+    <p>
+      A small river named Duden flows by their place and supplies it with the
+      necessary regelialia. It is a paradisematic country, in which roasted
+      parts of sentences fly into your mouth.
+    </p>
+
+    <h2>Contact information</h2>
+    <ul class="contact-details">
+      <li>
+        Email:
+        <a href="mailto:jane@example.com">jane@example.com</a>
+      </li>
+      <li>
+        Web:
+        <a href="https://example.com">https://example.com</a>
+      </li>
+      <li>Tel: 123 45678</li>
+    </ul>
+  </body>
 </html>
